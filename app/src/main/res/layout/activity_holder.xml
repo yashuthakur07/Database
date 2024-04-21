@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".holder">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/healthy" />
+
+
+    <TextView
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="BMI Tracker: Healthy Alert
+        Your BMI indicates you're in a healthy range. That's awesome! It shows you're doing something right to keep yourself fit Great job on checking your BMI! Cheers to your health!"
+
+        android:textColor="#F44336"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Routine"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/routine"
+        android:layout_margin="25dp"></Button>
+
+
+</LinearLayout>

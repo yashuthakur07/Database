@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient3"
+    tools:context=".holdsec">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/unhealthy" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="25dp"
+        android:text=" BMI Tracker: Overweight Alert-->
+Are you concerned about your weight? Our BMI Tracker app helps you monitor your Body Mass Index (BMI) easily and effectively. If you're in the overweight category, this app provides simple guidance to help you manage your weight and improve your health."
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow Rules !!"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/guide11"
+        android:layout_margin="1dp"
+
+        android:textColor="@color/black">
+
+    </Button>
+
+
+
+</LinearLayout>
